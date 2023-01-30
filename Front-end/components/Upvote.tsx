@@ -23,7 +23,7 @@ const Upvote: React.FunctionComponent<UpvoteButtonProps> = ({ answerId, ...props
   const upvotesQuery = useUpvotes({ answerId });
   
   const addApprove = useAddApprove();
-  const addUpvote = useAddUpvote();
+  const addUpvote =useAddUpvote();
 
   const isLoading = addApprove.isLoading || addUpvote.isLoading;
   const upvoteCountText = upvoteCount === 1 ? '1 Upvote' : `${upvoteCount} Upvotes`;
