@@ -5,7 +5,7 @@ import { BigNumber, ethers } from "ethers";
 // Import our contract ABI (a json representation of our contract's public interface).
 // The hardhat compiler writes this file to artifacts every time we run npx hardhat.
 
-import ForumContract from "../../../Hardhat/artifacts/contracts/Forum.sol/Forum.json";
+import ForumContract from "../../lib/contracts/Forum.sol/Forum.json";
 
 
 export enum ForumEvent {

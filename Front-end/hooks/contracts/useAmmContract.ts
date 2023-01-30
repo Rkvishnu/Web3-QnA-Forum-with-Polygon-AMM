@@ -1,6 +1,6 @@
 import * as wagmi from "wagmi";
 import { useProvider, useSigner } from "wagmi";
-import AmmContract from "../../../Hardhat/artifacts/contracts/AMM.sol/AMM.json";
+import AmmContract from "../../lib/contracts/AMM.sol/AMM.json";
 import { makeBig, makeNum } from "../../lib/utils";
 import useMaticContract from "./useMaticContract";
 import useGoflowContract from "./useGoOverFlowContract";
