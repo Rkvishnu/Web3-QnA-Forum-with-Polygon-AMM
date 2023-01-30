@@ -49,13 +49,13 @@ const queryClient = new QueryClient({
       refetchOnWindowFocus: false,
     },
   },
-  queryCache: new QueryCache({
-    onError: () => {
-      toast.error(
-        "Network Error: Ensure Metamask is connected & on the same network that your contract is deployed to."
-      );
-    },
-  }),
+  // queryCache: new QueryCache({
+  //   onError: () => {
+  //     toast.error(
+  //       "Network Error: Ensure Metamask is connected & on the same network that your contract is deployed to."
+  //     );
+  //   },
+  // }),
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
