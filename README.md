@@ -1,28 +1,28 @@
 # Web3-QnA-Forum-with-Polygon-AMM
 
-#About:
-1.A web3 version of the popular platform "Stake-Overflow" that allows users to ask and answer questions, upvote answers, and send tips in the form of a custom ERC20 token called "goflow."
-2.To facilitate the token's use, created an automated market maker smart-contract in Solidity with a user-friendly interface, enabling users to mint and swap between MATIC and "goflow" tokens.
-3.To ensure seamless user experience, employed React-ContextAPI for effective state management and Chakra-UI for an intuitive interface.
-4.In addition, four more smart-contracts were developed in Solidity, and Hardhat and EthersJs were utilized for deployment, testing, and interaction with the smart-contracts deployed on the Polygon Blockchain.
+# About:
+1.A web3 version of the popular platform "Stake-Overflow" that allows users to ask and answer questions, upvote answers, and send tips in the form of a custom ERC20 token called "goflow."<br/>
+2.To facilitate the token's use, created an automated market maker smart-contract in Solidity with a user-friendly interface, enabling users to mint and swap between MATIC and "goflow" tokens.<br/>
+3.To ensure seamless user experience, employed React-ContextAPI for effective state management and Chakra-UI for an intuitive interface.<br/>
+4.In addition, four more smart-contracts were developed in Solidity, and Hardhat and EthersJs were utilized for deployment, testing, and interaction with the smart-contracts deployed on the Polygon Blockchain.<br/>
 
 
-Features:
-1 allowed users to ask and answer questions, upvote answers, and send tips in the form of a custom ERC20 token called "goflow".
+# Features:
+1 allowed users to ask and answer questions, upvote answers, and send tips in the form of a custom ERC20 token called "goflow".<br/>
 2.enabling users to mint and swap between MATIC and "goflow" tokens.
 
 
 # Technologies Used:
--Typescript
--Next.js
--ChakraUI
--Solidity
--Hardhat
--Ether.js
--WagmiJs
--Polygon blockchain
--Alchemy node provider
--Metamask Wallet 
+-Typescript<br/>
+-Next.js<br/>
+-ChakraUI<br/>
+-Solidity<br/>
+-Hardhat<br/>
+-Ether.js<br/>
+-WagmiJs<br/>
+-Polygon blockchain<br/>
+-Alchemy node provider<br/>
+-Metamask Wallet <br/>
 
 
 # Installation:
