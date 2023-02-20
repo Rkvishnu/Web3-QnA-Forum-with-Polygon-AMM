@@ -13,16 +13,16 @@ Features:
 
 
 # Technologies Used:
-Typescript
-Next.js
-ChakraUI
-Solidity
-Hardhat
-Ether.js
-WagmiJs
-Polygon blockchain
-Alchemy node provider
-Metamask Wallet 
+-Typescript
+-Next.js
+-ChakraUI
+-Solidity
+-Hardhat
+-Ether.js
+-WagmiJs
+-Polygon blockchain
+-Alchemy node provider
+-Metamask Wallet 
 
 
 # Installation:
