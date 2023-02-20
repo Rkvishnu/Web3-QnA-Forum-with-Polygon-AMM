@@ -39,6 +39,7 @@ Clone this repository:
 Go to the project directory
 ```bash
   cd Web3-QnA-Forum-with-Polygon-AMM
+  cd Frontend
 ```
 Install dependencies
 ```bash
