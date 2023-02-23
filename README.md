@@ -1,4 +1,6 @@
 # Web3-QnA-Forum-with-Polygon-AMM
+![](https://komarev.com/ghpvc/?username=Rkvishnu&color=green&style=flat&label=Visits) 
+ 
 
 # About:
 1.A web3 version of the popular platform "Stake-Overflow" that allows users to ask and answer questions, upvote answers, and send tips in the form of a custom ERC20 token called "goflow."<br/>
