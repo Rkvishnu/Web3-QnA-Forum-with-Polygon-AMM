@@ -1,0 +1,50 @@
+pipeline{
+    agent any 
+
+    environment{
+        DOCKERHUB_USERNAME="rkvishnu77"
+        APP_NAME="web3_qna_forum"
+        IMAGE_TAG="${BUILD_NUMBER}"
+        IMAGE_NAME="${DOCKERHUB_USERNAME}" + "/" + "${APP_NAME}"
+        REGISTRY_CREDS="dockerhub"
+    }
+
+    stages{
+        stage('Cleanup Workspace') {
+            steps{ 
+                 cleanWs()
+            }
+        }
+
+        stage('Checkout SCM'){
+            steps{
+                script{
+                    git credentialsId:"github",
+                    url:"https://github.com/Rkvishnu/Web3-QnA-Forum-with-Polygon-AMM.git",
+                    branch:"master"
+                }
+            }
+        }
+        stage('Build Docker Image'){
+            steps{
+                script{
+                    docker_image = docker.build "${IMAGE_NAME}"
+                }
+            }
+
+        }
+
+        stage('Push image to Dockerhub'){
+            steps{
+                script{
+                    docker.withRegistry('',REGISTRY_CREDS){
+                        docker_image.push('$BUILD_NUMBER')
+                        docker_image.push('latest')
+                    }
+                }
+            }
+      
+        }
+
+    }
+}
